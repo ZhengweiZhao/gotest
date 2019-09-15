@@ -249,16 +249,6 @@ src/
 			reverse.go       # 包源码
 			reverse_test.go  # 测试源码
 ```
-- 添加子对象
-    `public static GameObject CreatePrimitive(PrimitiveType type);`
-    Creates a game object with a primitive mesh renderer and appropriate collider.
 
-
-- 清除所有子对象
-```javascript
-foreach (Transform child in transform) {  
-    Destroy(child.gameObject);  
-} 
-```
 更多详细go语言编程内容请移步：
 [参考文档](https://go-zh.org/doc/code.html)
